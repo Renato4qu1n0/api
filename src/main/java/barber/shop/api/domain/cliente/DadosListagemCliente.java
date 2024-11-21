@@ -1,6 +1,4 @@
-package barber.shop.api.cliente;
-
-import barber.shop.api.barbeiro.DadosListagemBarbeiro;
+package barber.shop.api.domain.cliente;
 
 public record DadosListagemCliente(String nome, String email, String telefone) {
 

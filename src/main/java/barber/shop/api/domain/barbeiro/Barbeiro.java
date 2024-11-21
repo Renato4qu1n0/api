@@ -1,6 +1,6 @@
-package barber.shop.api.barbeiro;
+package barber.shop.api.domain.barbeiro;
 
-import barber.shop.api.endereco.Endereco;
+import barber.shop.api.domain.endereco.Endereco;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -23,6 +23,7 @@ public class Barbeiro {
     private String cpf;
     @Enumerated(EnumType.STRING)
     private Especialidade especialidade;
+    private String senha;
 
     @Embedded
     private Endereco endereco;

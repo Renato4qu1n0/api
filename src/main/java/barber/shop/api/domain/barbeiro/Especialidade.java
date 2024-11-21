@@ -1,4 +1,4 @@
-package barber.shop.api.barbeiro;
+package barber.shop.api.domain.barbeiro;
 
 public enum Especialidade {
 

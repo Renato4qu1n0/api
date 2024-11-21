@@ -1,4 +1,4 @@
-package barber.shop.api.barbeiro;
+package barber.shop.api.domain.barbeiro;
 
 public record DadosListagemBarbeiro(Long id, String nome, String email, Especialidade especialidade) {
 

@@ -1,4 +1,4 @@
-package barber.shop.api.endereco;
+package barber.shop.api.domain.endereco;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

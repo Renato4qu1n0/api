@@ -1,4 +1,4 @@
-package barber.shop.api.cliente;
+package barber.shop.api.domain.cliente;
 
 
 import jakarta.validation.constraints.NotBlank;

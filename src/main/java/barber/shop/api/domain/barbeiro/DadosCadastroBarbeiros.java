@@ -1,6 +1,6 @@
-package barber.shop.api.barbeiro;
+package barber.shop.api.domain.barbeiro;
 
-import barber.shop.api.endereco.DadosEndereco;
+import barber.shop.api.domain.endereco.DadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -20,7 +20,8 @@ public record DadosCadastroBarbeiros(
         String cpf,
         @NotNull
         Especialidade especialidade,
+
         @NotNull
-                @Valid
+        @Valid
         DadosEndereco endereco) {
 }
