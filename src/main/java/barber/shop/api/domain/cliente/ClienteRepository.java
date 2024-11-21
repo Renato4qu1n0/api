@@ -1,4 +1,4 @@
-package barber.shop.api.cliente;
+package barber.shop.api.domain.cliente;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

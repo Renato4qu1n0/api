@@ -1,6 +1,6 @@
 package barber.shop.api.controller;
 
-import barber.shop.api.endereco.DadosEndereco;
+import barber.shop.api.domain.endereco.DadosEndereco;
 import jakarta.validation.constraints.NotNull;
 
 public record DadosAtualizacaoClientes(

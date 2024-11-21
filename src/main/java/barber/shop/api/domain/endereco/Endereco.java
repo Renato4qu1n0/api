@@ -1,4 +1,4 @@
-package barber.shop.api.endereco;
+package barber.shop.api.domain.endereco;
 
 import jakarta.persistence.Embeddable;
 import lombok.AllArgsConstructor;
